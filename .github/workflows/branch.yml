@@ -10,7 +10,7 @@ jobs:
   ensure-repo:
     name: "Ensure Repository"
     runs-on: ubuntu-latest
-    if: github.repository == 'zpqrtbnk/test-repo'
+    if: github.repository == 'jaran94/test-repo'
     steps:
       - name: Report
         shell: bash
