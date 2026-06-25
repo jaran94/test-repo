@@ -13,7 +13,7 @@ jobs:
       - name: merge
         shell: bash
         run: |
-          git config user.email "actions@zpqrtbnk.net"
+          git config user.email "paweljaran@gmail.com"
           git config user.name "Actions"
           git fetch --depth=1 --no-tags origin master
           git branch master origin/master
